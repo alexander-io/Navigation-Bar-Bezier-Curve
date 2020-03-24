@@ -51,6 +51,29 @@ html,body {
   align-items: center;
 }
 
+.home-button > img {
+  height: 70%;
+}
+
 .material-icons {
   color:white;
+}
+
+.button-wrapper {
+  height:100%;
+  width:25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #212121;
+  transition: height 1s;
+  transition-timing-function: ease;
+}
+.button-wrapper:hover {
+  height:150%;
+  cursor: pointer;
+}
+.button-wrapper:hover span {
+  color:#f15b29;
 }

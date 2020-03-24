@@ -14,9 +14,14 @@ app.get('/app.js', (req, res) => {
   res.sendFile(__dirname + '/public/app.js')
 })
 
+app.get('/rohkeus_logo.png', (req,res) => {
+  res.sendFile(__dirname + '/images/rohkeus_logo.png')
+})
+
 app.get('/navcenter.svg', (req,res) => {
   res.sendFile(__dirname + '/images/navcenter.svg')
 })
+
 
 
 app.listen(port, () => {
